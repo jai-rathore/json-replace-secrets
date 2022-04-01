@@ -1,6 +1,6 @@
 {
   "name": "json-replace-secrets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "replaces secret placeholders in app config json file with values from vault secret json file",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,9 @@
   "keywords": [
     "json-replace-secrets"
   ],
+  "bin": {
+    "json-replace-secrets": "./index.js"
+  },
   "author": "Jai Rathore <jaiadityarathore@gmail.com> (https://www.linkedin.com/in/jrathore)",
   "license": "ISC",
   "bugs": {
