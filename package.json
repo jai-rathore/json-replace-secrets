@@ -1,0 +1,26 @@
+{
+  "name": "json-replace-secrets",
+  "version": "1.0.0",
+  "description": "replaces secret placeholders in app config json file with values from vault secret json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jai-rathore/json-replace-secrets.git"
+  },
+  "keywords": [
+    "json-replace-secrets"
+  ],
+  "author": "Jai Rathore <jaiadityarathore@gmail.com> (https://www.linkedin.com/in/jrathore)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jai-rathore/json-replace-secrets/issues"
+  },
+  "homepage": "https://github.com/jai-rathore/json-replace-secrets#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "yargs": "^17.4.0"
+  }
+}
