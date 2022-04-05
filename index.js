@@ -20,7 +20,7 @@ let configDataJsonString = JSON.stringify(configDataJson);
 
 for (let index = 0; index < secretKeys.length; index++) {
     const element = secretKeys[index];
-    if(configDataJsonString.includes('${'+element+'}')){
+    while(configDataJsonString.includes('${'+element+'}')){
         console.log(`Replacing key ${element} in the config file`);
         configDataJsonString = configDataJsonString.replace('${'+element+'}', secretDataJson[element]);
     }
